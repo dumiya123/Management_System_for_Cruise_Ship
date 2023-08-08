@@ -38,11 +38,11 @@ public class Main
                 V:View all cabins
                 E: Display Empty cabins
                 D: Delete customer from cabin
-                                 F: Find cabin from customer name
-                                 S: Store program data into file
-                                 L: Load program data from file
-                                 O: View passengers Ordered alphabetically by name
-                                 X: Exit
+                F: Find cabin from customer name
+                S: Store program data into file
+                L: Load program data from file
+                O: View passengers Ordered alphabetically by name
+                X: Exit
                                
                                
                                
