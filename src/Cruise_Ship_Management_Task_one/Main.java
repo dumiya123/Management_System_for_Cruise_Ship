@@ -41,9 +41,9 @@ public class Main
     {
         System.out.println("""
                 M:Show Menu
+                V:View all cabins
+                E:Display Empty cabins                      
                 A:Add a customer to a cabin
-                E: Display Empty cabins                       V:View all cabins
-               
                 D: Delete customer from cabin
                 F: Find cabin from customer name
                 S: Store program data into file
