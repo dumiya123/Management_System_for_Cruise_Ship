@@ -56,7 +56,7 @@ public class Main
     }
 
     /**
-     *This method will show cabin s
+     *This method will show cabin status,whether they are occupied or not occupied.
      *
      * */
 
@@ -70,7 +70,7 @@ public class Main
             }
             else
             {
-                System.out.println();
+                System.out.println("Cabin");
             }
 
         }
