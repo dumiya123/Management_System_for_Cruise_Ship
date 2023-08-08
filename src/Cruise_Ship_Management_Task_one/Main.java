@@ -107,9 +107,9 @@ public class Main
             {
 
             }
-            else if (cabin_info[cabin_number].equals("empty"))
+            else if (cabin_info[cabin_number].equals("empty"))                             // The selected cabin is empty,
             {
-                System.out.println("Enter Customer Name for Cabin "+cabin_number+" :");
+                System.out.println("Enter Customer Name for Cabin "+cabin_number+" :");  // prompt for customer name and assign the cabin.
                 String Cabin_Customer_Name= sc.next();
                 cabin_info[cabin_number]=Cabin_Customer_Name.toUpperCase();
                 System.out.println("Customer " + Cabin_Customer_Name.toUpperCase() + " Added to Cabin " + cabin_number + " Successfully");
