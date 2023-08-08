@@ -104,6 +104,7 @@ public class Main
             int cabin_number= sc.nextInt();
 
 
+
         }
     }
 
