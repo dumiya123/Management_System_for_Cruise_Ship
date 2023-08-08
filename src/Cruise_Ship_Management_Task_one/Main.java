@@ -87,7 +87,7 @@ public class Main
         {
             if (cabin_info[i].equals("Empty"))
             {
-                System.out.println("");
+                System.out.println("Cabin "+i +"");
 
             }
 
