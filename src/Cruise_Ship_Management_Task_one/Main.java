@@ -79,7 +79,9 @@ public class Main
     /**
      *This method will display Empty cabins.
      *
-     * **/
+     **/
+
+    public  void View_Empty_
 
 
 
