@@ -56,7 +56,7 @@ public class Main
     }
 
     /**
-     *This method will show cabin status,whether they are occupied or not occupied.
+     *This method will show cabin status,whether they are occupied or not occupied by someone.
      *
      * */
 
@@ -77,7 +77,7 @@ public class Main
     }
 
     /**
-     *
+     *This method will display Empty cabins.
      *
      * **/
 
