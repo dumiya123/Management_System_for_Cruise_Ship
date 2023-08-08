@@ -103,6 +103,15 @@ public class Main
             System.out.println("Enter a cabin Number(0-11) to add a Customer(Enter 12 to go back):  ");
             int cabin_number= sc.nextInt();
 
+            if (cabin_number==12)
+            {
+
+            }
+            else if (cabin_info[cabin_number].equals("empty"))
+            {
+
+            }
+
 
 
         }
