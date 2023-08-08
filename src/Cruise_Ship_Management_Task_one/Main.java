@@ -81,7 +81,10 @@ public class Main
      *
      **/
 
-    public  void View_Empty_
+    public  void View_Empty_Cabins()
+    {
+        
+    }
 
 
 
