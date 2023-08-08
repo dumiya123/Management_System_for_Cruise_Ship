@@ -20,11 +20,16 @@ public class Main
 
 
 
-
         }
 
 
 
 
+    }
+    public void show_menu()
+    {
+        System.out.println("""
+                
+                """);
     }
 }
