@@ -34,6 +34,8 @@ public class Main
     {
         System.out.println("""
                M:Show Menu
+               A:Add a customer to a cabin
+               
                
                 """);
     }
