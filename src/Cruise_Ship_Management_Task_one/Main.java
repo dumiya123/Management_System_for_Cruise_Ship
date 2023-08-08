@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  *COPYRIGHT(C) Dumindu Induawara Garage. email-gamagedumindui@gamail.com
  * Task I  Management System for a Cruise ship in java.
- * @author
+ * @author Dumindu Induwara Gamage.
  */
 
 public class Main
@@ -32,7 +32,9 @@ public class Main
 
         }
 
-
+    /**
+     *
+     * */
 
 
     }
