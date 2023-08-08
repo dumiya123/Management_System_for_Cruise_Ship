@@ -109,6 +109,9 @@ public class Main
             }
             else if (cabin_info[cabin_number].equals("empty"))
             {
+                System.out.println("Enter Customer Name for Cabin "+cabin_number+" :");
+                String Cabin_Customer_Name= sc.next();
+                cabin_info[cabin_number]=Cabin_Customer_Name.toUpperCase();
 
             }
 
