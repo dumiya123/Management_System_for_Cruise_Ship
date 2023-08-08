@@ -33,12 +33,19 @@ public class Main
     public void show_menu()
     {
         System.out.println("""
-               M:Show Menu
-               A:Add a customer to a cabin
-               V:View all cabins
-               
-               
-               
-                """);
+                M:Show Menu
+                A:Add a customer to a cabin
+                V:View all cabins
+                E: Display Empty cabins
+                D: Delete customer from cabin
+                                 F: Find cabin from customer name
+                                 S: Store program data into file
+                                 L: Load program data from file
+                                 O: View passengers Ordered alphabetically by name
+                                 X: Exit
+                               
+                               
+                               
+                 """);
     }
 }
