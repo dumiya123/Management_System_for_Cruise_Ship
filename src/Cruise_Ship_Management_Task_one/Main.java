@@ -43,9 +43,7 @@ public class Main
                 L: Load program data from file
                 O: View passengers Ordered alphabetically by name
                 X: Exit
-                               
-                               
-                             
+                                              
                  """);
     }
 }
