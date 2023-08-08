@@ -30,6 +30,7 @@ public class Main
 
 
 
+
         }
 
     /**
@@ -61,6 +62,18 @@ public class Main
      *
      *
      * */
+
+    public void View_Cabin_Status()
+    {
+        for (int i = 0; i < cabin_info.length; i++)
+        {
+            if (!cabin_info[i].equals("Empty"))
+            {
+                System.out.println();
+            }
+
+        }
+    }
 
 
 }
