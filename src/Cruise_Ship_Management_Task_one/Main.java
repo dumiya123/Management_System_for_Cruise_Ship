@@ -73,7 +73,6 @@ public class Main
                 System.out.println("Cabin "+ i+" is"+cabin_info[i]);
             }
 
-
         }
     }
 
