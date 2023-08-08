@@ -70,7 +70,7 @@ public class Main
             }
             else
             {
-                System.out.println("Cabin");
+                System.out.println("Cabin "+ i+" is"+cabin_info[i]);
             }
 
         }
