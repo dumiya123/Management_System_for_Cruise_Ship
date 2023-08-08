@@ -26,7 +26,7 @@ public class Main
 
 
 
-            
+
 
         }
 
@@ -56,7 +56,7 @@ public class Main
     }
 
     /**
-     *
+     *This method will show cabin
      *
      * */
 
