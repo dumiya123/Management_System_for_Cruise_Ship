@@ -83,7 +83,14 @@ public class Main
 
     public  void View_Empty_Cabins()
     {
-        
+        for (int i = 0; i < cabin_info.length; i++)
+        {
+            if (cabin_info[i].equals("Empty"))
+            {
+
+            }
+
+        }
     }
 
 
