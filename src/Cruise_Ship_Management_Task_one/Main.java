@@ -30,9 +30,6 @@ public class Main
 
 
 
-
-
-
         }
 
     /**
@@ -72,6 +69,10 @@ public class Main
             if (!cabin_info[i].equals("Empty"))
             {
                 System.out.println("Cabin "+i+"is occupied by: "+cabin_info[i]);
+            }
+            else
+            {
+                System.out.println();
             }
 
         }
