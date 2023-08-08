@@ -42,8 +42,8 @@ public class Main
         System.out.println("""
                 M:Show Menu
                 A:Add a customer to a cabin
-                V:View all cabins
-                E: Display Empty cabins
+                E: Display Empty cabins                       V:View all cabins
+               
                 D: Delete customer from cabin
                 F: Find cabin from customer name
                 S: Store program data into file
@@ -87,7 +87,7 @@ public class Main
         {
             if (cabin_info[i].equals("Empty"))
             {
-                System.out.println("Cabin "+i +"");
+                System.out.println("Cabin "+i +" is Empty");
 
             }
 
