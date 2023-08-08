@@ -95,6 +95,18 @@ public class Main
     }
 
 
+    public void Add_a_Customer_to_a_Cabin()
+    {
+        try
+        {
+            Scanner sc=new Scanner(System.in);
+
+
+
+        }
+    }
+
+
 
 
 }
