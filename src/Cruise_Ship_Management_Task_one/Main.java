@@ -100,7 +100,8 @@ public class Main
         try
         {
             Scanner sc=new Scanner(System.in);
-
+            System.out.println("Enter a cabin Number(0-11) to add a Customer(Enter 12 to go back):  ");
+            int cabin_number= sc.nextInt();
 
 
         }
