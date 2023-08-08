@@ -3,7 +3,9 @@ package Cruise_Ship_Management_Task_one;
 import java.util.Scanner;
 
 /**
- *
+ *COPYRIGHT(C) Dumindu Induawara Gamage. email-dumindu.
+ * Task I  Management System for a Cruise ship in java.
+ * @
  */
 
 public class Main
