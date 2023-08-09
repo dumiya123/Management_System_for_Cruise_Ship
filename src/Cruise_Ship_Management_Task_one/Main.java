@@ -97,7 +97,7 @@ public class Main
     /**
      * This method will Add_a_Customer to a cabin
      *it will ask a cabin number which you hope to add a customer to cabin
-     *
+     *if the give cabin is empty
      */
 
 
