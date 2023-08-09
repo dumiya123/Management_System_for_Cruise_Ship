@@ -167,6 +167,8 @@ public class Main
                 }
                 else
                 {
+                    cabin_info[cabin_number]="Empty";
+
 
                 }
 
