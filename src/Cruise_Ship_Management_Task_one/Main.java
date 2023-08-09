@@ -162,8 +162,6 @@ public class Main
                 if (cabin_info[cabin_number].equals("Empty"))
                 {
                     System.out.println("Cannot do your request to deletion. "+cabin_number+"is already empty");
-
-
                 }
                 else
                 {
