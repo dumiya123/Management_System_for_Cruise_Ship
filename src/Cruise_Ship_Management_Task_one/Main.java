@@ -96,7 +96,7 @@ public class Main
 
     /**
      * This method will Add_a_Customer to a cabin
-     *
+     *it will ask
      */
 
 
