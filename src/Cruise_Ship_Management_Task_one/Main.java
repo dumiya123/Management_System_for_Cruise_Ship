@@ -161,7 +161,7 @@ public class Main
             {
                 if (cabin_info[cabin_number].equals("Empty"))
                 {
-                    System.out.println();
+                    System.out.println("Cannot do your request to deletion. ");
 
 
                 }
