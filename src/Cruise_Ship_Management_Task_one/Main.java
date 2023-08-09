@@ -1,5 +1,6 @@
 package Cruise_Ship_Management_Task_one;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /**
@@ -153,6 +154,7 @@ public class Main
 
             if (cabin_number==12)
             {
+                System.out.println("Enter ");
 
             }
 
