@@ -154,7 +154,7 @@ public class Main
 
             if (cabin_number==12)
             {
-                System.out.println("Enter ");
+
 
             }
 
