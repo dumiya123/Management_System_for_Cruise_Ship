@@ -149,6 +149,12 @@ public class Main
         {
             Scanner sc=new Scanner(System.in);
             System.out.println("Enter a cabin Number(0-11) to delete (Enter 12 to go back): ");
+            int cabin_number= sc.nextInt();
+
+            if (cabin_number==12)
+            {
+
+            }
 
         }
 
