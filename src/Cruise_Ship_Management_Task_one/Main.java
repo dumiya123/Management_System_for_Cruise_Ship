@@ -100,7 +100,7 @@ public class Main
         try
         {
             Scanner sc=new Scanner(System.in);
-            System.out.println("Enter a cabin Number(0-11) to add a Customer(Enter 12 to go back):  ");
+            System.out.println("Enter a cabin Number(0-11) to add a Customer(Enter 12 to go back):  ");  // Prompt the user to enter a cabin number.
             int cabin_number= sc.nextInt();
 
             if (cabin_number==12)       // Check if the user wants to go back.
@@ -125,7 +125,8 @@ public class Main
         catch (Exception e)
         {
             System.out.println("The Entered Value can't be proceed. Please Enter a valid Cabin Number. Error :" + e);
-            Add_a_Customer_to_a_Cabin();                                                                          // if any exception occurred when adding a customer, then allow user to add a customer again.
+            Add_a_Customer_to_a_Cabin();
+            // if any exception occurred when adding a customer, then allow user to add a customer again.
         }
     }
 
