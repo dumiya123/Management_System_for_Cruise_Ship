@@ -159,6 +159,10 @@ public class Main
             }
             else if (cabin_number<cabin_info.length)
             {
+                if (cabin_info[cabin_number].equals("")) {
+
+
+                }
 
             }
 
