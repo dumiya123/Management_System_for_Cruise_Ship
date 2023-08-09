@@ -109,7 +109,7 @@ public class Main
             System.out.println("Enter a cabin Number(0-11) to add a Customer(Enter 12 to go back):  ");  // Prompt the user to enter a cabin number.
             int cabin_number= sc.nextInt();
 
-            if (cabin_number==12)       // Check if the user wants to go back.
+            if (cabin_number==12)        // Prompt the user to enter a cabin number.
             {
 
 
@@ -137,6 +137,10 @@ public class Main
             // if any exception occurred when adding a customer, then allow user to add a customer again.
         }
     }
+
+    /**
+     *
+     */
 
 
 
