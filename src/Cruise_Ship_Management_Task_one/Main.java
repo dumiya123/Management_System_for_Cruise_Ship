@@ -157,7 +157,10 @@ public class Main
 
 
             }
-            else
+            else if (cabin_number<cabin_info.length)
+            {
+
+            }
 
         }
 
