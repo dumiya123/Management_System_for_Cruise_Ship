@@ -164,7 +164,6 @@ public class Main
                     System.out.println("Cannot do your request to deletion. "+cabin_number+"is already empty");
 
 
-
                 }
                 else
                 {
