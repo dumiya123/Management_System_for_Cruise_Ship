@@ -96,6 +96,7 @@ public class Main
 
     /**
      * This method will Add_a_Customer to a cabin
+     *
      */
 
 
@@ -109,6 +110,7 @@ public class Main
 
             if (cabin_number==12)       // Check if the user wants to go back.
             {
+
 
             }
             else if (cabin_info[cabin_number].equals("empty"))                             // The selected cabin is empty,
