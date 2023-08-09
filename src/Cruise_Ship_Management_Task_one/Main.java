@@ -139,8 +139,20 @@ public class Main
     }
 
     /**
-     *deleteCusteomer method will
+     *deleteCustomer method will delete customer from cabin
+     *if the given cabin is empty then show a message that cabin is already empty, otherwise it will delete customer record.
      */
+
+    public void deleteCustomer()
+    {
+        try
+        {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter a cabin Number(0-11) to delete (Enter 12 to go back): ");
+
+        }
+
+    }
 
 
 
