@@ -168,7 +168,6 @@ public class Main
                     cabin_info[cabin_number]="Empty";
                     System.out.println("Customer deleted succesfully. ");
 
-
                 }
 
             }
