@@ -156,7 +156,6 @@ public class Main
             {
                 /* if cabinNum is 12 then do nothing and let method end without doing anything.*/
 
-
             }
             else if (cabin_number<cabin_info.length)
             {
