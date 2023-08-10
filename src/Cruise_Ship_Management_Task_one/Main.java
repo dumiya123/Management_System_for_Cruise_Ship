@@ -181,6 +181,7 @@ public class Main
         catch (Exception e)
         {
             System.out.println("The Entered cabin number is Invalid. Error :" + e);
+            deleteCustomer();
 
         }
 
