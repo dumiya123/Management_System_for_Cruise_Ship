@@ -169,7 +169,6 @@ public class Main
                     System.out.println("Customer deleted succesfully. ");
 
                 }
-
             }
 
         }
