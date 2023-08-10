@@ -173,8 +173,13 @@ public class Main
             else
             {
                 System.out.println("The Entered Cabin Number Does Not Exist");
+                deleteCustomer();
 
             }
+
+        }
+        catch (Exception e)
+        {
 
         }
 
