@@ -154,6 +154,7 @@ public class Main
 
             if (cabin_number==12)
             {
+                /* if cabinNum is 12 then do nothing and let method end without doing anything.*/
 
 
             }
