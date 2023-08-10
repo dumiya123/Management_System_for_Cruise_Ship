@@ -166,7 +166,7 @@ public class Main
                 else
                 {
                     cabin_info[cabin_number]="Empty";
-                    System.out.println("Customer deleted succesfully. ");
+                    System.out.println("Customer deleted succesfully.");
 
                 }
             }
