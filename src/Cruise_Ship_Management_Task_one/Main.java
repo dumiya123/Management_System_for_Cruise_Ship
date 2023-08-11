@@ -1,6 +1,5 @@
 package Cruise_Ship_Management_Task_one;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /**
