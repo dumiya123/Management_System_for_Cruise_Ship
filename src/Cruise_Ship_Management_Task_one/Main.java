@@ -144,8 +144,8 @@ public class Main
         try
         {
             Scanner sc=new Scanner(System.in); // Create a new Scanner object to read input from the console.
-            System.out.println("Enter a cabin Number(0-11) to delete (Enter 12 to go back): "); //prompt user to enter the
-            int cabin_number= sc.nextInt();
+            System.out.println("Enter a cabin Number(0-11) to delete (Enter 12 to go back): "); //prompt user to enter the cabin number user want to delete
+            int cabin_number= sc.nextInt();  //read the user entered input using newly created ' sc' object and store it variable called cabin number as an integer.
 
             if (cabin_number==12)
             {
