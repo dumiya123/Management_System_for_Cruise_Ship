@@ -174,8 +174,6 @@ public class Main
                 System.out.println("The Entered Cabin Number Does Not Exist"); //if the user entered cabin number does not exist then
                 deleteCustomer(); //allow user to do the deletion process again using concept recursion.
                                   // Recursively call deleteCustomer() to handle the incorrect input
-
-
             }
 
         }
@@ -184,8 +182,6 @@ public class Main
             System.out.println("The Entered cabin number is Invalid.Hint:You cannot enter a alphabetical character. Error :" + e);
             deleteCustomer(); // Recursively call deleteCustomer() to handle the exception
         }
-
-
     }
 
 
