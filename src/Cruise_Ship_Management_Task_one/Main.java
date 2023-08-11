@@ -165,7 +165,7 @@ public class Main
                 else
                 {
                     cabin_info[cabin_number]="Empty";        //make cabin empty.this deletion point in this method.it will set the specified cabin number into empty cabin.
-                    System.out.println("Customer deleted successfully.");
+                    System.out.println("Customer deleted successfully."); //this will tell user deletion process is successful.
 
                 }
             }
