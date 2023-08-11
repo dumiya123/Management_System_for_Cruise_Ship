@@ -185,8 +185,22 @@ public class Main
     }
 
     /**
-     * findCustomer method will find any customer with his name
+     * find_Customer_From_Name method will find any customer with his name
+     *
      */
+
+    public void find_Customer_From_Name()
+    {
+        try
+        {
+
+
+        }
+        catch(Exception e)
+        {
+
+        }
+    }
 
 
 
