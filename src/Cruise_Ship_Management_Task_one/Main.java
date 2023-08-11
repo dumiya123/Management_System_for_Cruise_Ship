@@ -204,10 +204,10 @@ public class Main
                     System.out.println("Customer name found in the array"+ Name_to_find.toUpperCase()+"Located in Cabin "+i);
                     found_customer=true;
 
-
-
                 }
-
+            }
+            if (!found_customer)
+            {
 
             }
 
