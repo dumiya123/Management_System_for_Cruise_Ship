@@ -150,7 +150,8 @@ public class Main
             if (cabin_number==12)
             {
                 /**
-                 * if cabin_number 12 do nothing and allow method to end
+                 * if cabin_number 12 do nothing and allow method to end without doing anything
+                 *
                  */
 
             }
