@@ -196,6 +196,17 @@ public class Main
             Scanner sc=new Scanner(System.in);
             System.out.println("Enter the name you want to find:  ");
             String Name_to_find=sc.next();
+            boolean found_customer=false;
+            for (int i = 0; i <cabin_info.length ; i++)
+            {
+                if(Name_to_find.toUpperCase().equalsIgnoreCase(cabin_info[i]))
+                {
+
+
+                }
+
+
+            }
 
 
 
