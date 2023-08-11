@@ -171,8 +171,8 @@ public class Main
             }
             else
             {
-                System.out.println("The Entered Cabin Number Does Not Exist");
-                deleteCustomer();
+                System.out.println("The Entered Cabin Number Does Not Exist"); //if the user entered cabin number does not exist then
+                deleteCustomer(); //allow user to do the deletion process again using concept recursion.
 
 
             }
