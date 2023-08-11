@@ -151,7 +151,7 @@ public class Main
             {
                 /**
                  * if cabin_number 12 do nothing and allow method to end without doing anything.
-                 *
+                 * This option allows the user to go back without deleting a customer.
                  */
 
             }
