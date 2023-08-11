@@ -157,7 +157,7 @@ public class Main
             }
             else if (cabin_number<cabin_info.length)
             {
-                if (cabin_info[cabin_number].equals("Empty"))
+                if (cabin_info[cabin_number].equals("Empty")) // Check if the selected cabin is already empty
                 {
                     System.out.println("Cannot do your request to deletion. "+cabin_number+"is already empty");
                 }
