@@ -216,7 +216,8 @@ public class Main
         }
         catch(Exception e)
         {
-            System.out.println();
+            System.out.println("Entered Named is not valid.Error: "+e);
+            find_Customer_From_Name();
 
         }
     }
