@@ -201,7 +201,9 @@ public class Main
             {
                 if(Name_to_find.toUpperCase().equalsIgnoreCase(cabin_info[i]))
                 {
-                    System.out.println("Customer name found in the array."+ Name_to_find.toUpperCase());
+                    System.out.println("Customer name found in the array"+ Name_to_find.toUpperCase()+"Located in Cabin "+i);
+                    found_customer=true;
+
 
 
                 }
