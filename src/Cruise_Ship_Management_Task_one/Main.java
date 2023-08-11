@@ -193,6 +193,11 @@ public class Main
     {
         try
         {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter the name you want to find:  ");
+            String Name_to_find=sc.next();
+
+
 
 
         }
