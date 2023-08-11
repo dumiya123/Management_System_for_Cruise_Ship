@@ -181,8 +181,8 @@ public class Main
         }
         catch (Exception e)
         {
-            System.out.println("The Entered cabin number is Invalid.Hint:You cannot enter a alphabetical character. Error :" + e); // Recursively call deleteCustomer() to handle the exception
-            deleteCustomer();
+            System.out.println("The Entered cabin number is Invalid.Hint:You cannot enter a alphabetical character. Error :" + e);
+            deleteCustomer(); // Recursively call deleteCustomer() to handle the exception
         }
 
 
