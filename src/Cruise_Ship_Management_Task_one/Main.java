@@ -143,7 +143,7 @@ public class Main
     {
         try
         {
-            Scanner sc=new Scanner(System.in);
+            Scanner sc=new Scanner(System.in); // Create a new Scanner object to read input from the console
             System.out.println("Enter a cabin Number(0-11) to delete (Enter 12 to go back): ");
             int cabin_number= sc.nextInt();
 
