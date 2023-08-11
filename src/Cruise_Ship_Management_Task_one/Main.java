@@ -185,7 +185,7 @@ public class Main
     }
 
     /**
-     * findCustomer method will
+     * findCustomer method will find any customer with his name
      */
 
 
