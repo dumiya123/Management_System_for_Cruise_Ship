@@ -40,8 +40,8 @@ public class Main
                 V:View all cabins
                 E:Display Empty cabins                      
                 A:Add a customer to a cabin
-                D: Delete customer from cabin
-                F: Find cabin from customer name
+                D:Delete customer from cabin
+                F:Find cabin from customer name
                 S: Store program data into file
                 L: Load program data from file
                 O: View passengers Ordered alphabetically by name
@@ -183,6 +183,8 @@ public class Main
             deleteCustomer(); // Recursively call deleteCustomer() to handle the exception
         }
     }
+
+
 
 
 
