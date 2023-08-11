@@ -160,9 +160,8 @@ public class Main
                 }
                 else
                 {
-                    cabin_info[cabin_number]="Empty";
+                    cabin_info[cabin_number]="Empty";        //make cabin empty.
                     System.out.println("Customer deleted successfully.");
-
 
                 }
             }
