@@ -14,6 +14,8 @@ public class Main
 
     private static final Main cruise_ship_class=new Main();
 
+    private final String fileName = "Cabin_info.txt";
+
 
     public static void main(String[] args)
     {
