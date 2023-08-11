@@ -208,7 +208,7 @@ public class Main
             }
             if (!found_customer)
             {
-                System.out.println("You entered customer cannot found.Please  ");
+                System.out.println("You entered customer cannot found.Please check the ");
 
 
             }
