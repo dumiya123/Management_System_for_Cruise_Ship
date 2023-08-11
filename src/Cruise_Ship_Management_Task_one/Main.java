@@ -25,7 +25,6 @@ public class Main
             cruise_ship_class.cabin_info[i]="Empty";
 
 
-
         }
 
     /**
