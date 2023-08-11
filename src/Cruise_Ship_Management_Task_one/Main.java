@@ -181,7 +181,7 @@ public class Main
         }
         catch (Exception e)
         {
-            System.out.println("The Entered cabin number is Invalid. Error :" + e);
+            System.out.println("The Entered cabin number is Invalid.Hint:You cannot enter a alphabetical character. Error :" + e);
             deleteCustomer();
 
         }
