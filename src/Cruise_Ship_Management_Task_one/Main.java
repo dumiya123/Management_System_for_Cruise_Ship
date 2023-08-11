@@ -211,9 +211,7 @@ public class Main
                 System.out.println("You entered customer cannot found.Please check the name again.Enter the name correctly");
                 find_Customer_From_Name();
 
-
             }
-
 
         }
         catch(Exception e)
