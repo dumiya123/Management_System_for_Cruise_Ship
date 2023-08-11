@@ -159,11 +159,12 @@ public class Main
             {
                 if (cabin_info[cabin_number].equals("Empty")) // Check if the selected cabin is already empty
                 {
-                    System.out.println("Cannot fulfill deletion request "+cabin_number+" is already empty");
+                    System.out.println("Cannot fulfill deletion request "+cabin_number+" is already empty");  //then show a message to the console
+
                 }
                 else
                 {
-                    cabin_info[cabin_number]="Empty";        //make cabin empty.
+                    cabin_info[cabin_number]="Empty";        //make cabin empty.this deletion point in this method.it will set the specified cabin number into empty cabin.
                     System.out.println("Customer deleted successfully.");
 
                 }
