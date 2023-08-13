@@ -276,6 +276,19 @@ public class Main
         File inputFile=new File(fileName);
         try
         {
+            Scanner reader=new Scanner(inputFile);
+            while (reader.hasNext())
+            {
+                System.out.println(reader.nextLine());
+            }
+            reader.close();
+
+
+        }
+        catch (IOException e)
+        {
+            System.out.println("An Error Occurred While Reading The File. Error :" + e);
+        }
 
 
     }
