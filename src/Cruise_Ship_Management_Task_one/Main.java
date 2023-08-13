@@ -268,7 +268,7 @@ public class Main
     }
 
     /**
-     * Load_from_file method will load data from the file
+     * Load_from_file method will load data from the Cabin_info.txt and it will print the data to the console.
      */
 
     public void Load_from_file()
