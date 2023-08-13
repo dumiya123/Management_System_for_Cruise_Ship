@@ -238,6 +238,12 @@ public class Main
             FileWriter my_writer=new FileWriter( fileName);
             for (int i = 0; i < cabin_info.length ; i++)
             {
+                if (cabin_info[i].equals("Empty"))
+                {
+
+
+
+                }
 
 
 
