@@ -250,7 +250,8 @@ public class Main
                 }
                 my_writer.write(Text_to_write.toString());
                 my_writer.close();
-                System.out.println();
+                System.out.println("Relevant information successfully wrote to the "+fileName+" file");
+
 
 
 
