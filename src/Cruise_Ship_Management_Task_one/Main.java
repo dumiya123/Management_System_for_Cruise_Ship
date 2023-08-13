@@ -268,6 +268,11 @@ public class Main
      * Load_from_file method will load data from the file
      */
 
+    public void Load_from_file()
+    {
+        
+    }
+
 
 
 
