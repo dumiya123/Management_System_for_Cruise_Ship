@@ -235,7 +235,7 @@ public class Main
         try
         {
             StringBuilder Text_to_write=new StringBuilder(); //In here i created a String Builder to efficiently construct and manipulate strings
-                                                             //
+                                                             //when you need to perform multiple concatenation or modification operations,
             FileWriter my_writer=new FileWriter( fileName);
 
             for (int i = 0; i < cabin_info.length ; i++)
