@@ -240,10 +240,10 @@ public class Main
             {
                 if (cabin_info[i].equals("Empty"))
                 {
-
-
+                    Text_to_write.append("Cabin").append(i).append("is").append(cabin_info[i]).append("\n");
 
                 }
+
 
 
 
