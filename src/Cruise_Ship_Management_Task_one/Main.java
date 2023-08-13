@@ -259,7 +259,8 @@ public class Main
         }
         catch(IOException e)
         {
-            System.out.println(e);
+            System.out.println("An error occurred while writing to the file "+e);
+
 
         }
 
