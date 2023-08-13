@@ -252,11 +252,6 @@ public class Main
                 my_writer.close();
                 System.out.println("Relevant information successfully wrote to the "+fileName+" file");
 
-
-
-
-
-
             }
 
 
