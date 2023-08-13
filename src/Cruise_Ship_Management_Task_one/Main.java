@@ -116,6 +116,7 @@ public class Main
             {
 
 
+
             }
             else if (cabin_info[cabin_number].equals("empty"))                             // The selected cabin is empty,
             {
