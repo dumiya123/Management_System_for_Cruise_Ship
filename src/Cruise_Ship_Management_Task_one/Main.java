@@ -234,8 +234,9 @@ public class Main
     {
         try
         {
-            StringBuilder Text_to_write=new StringBuilder(); //In here i use
+            StringBuilder Text_to_write=new StringBuilder(); //In here i created a String Builder
             FileWriter my_writer=new FileWriter( fileName);
+
             for (int i = 0; i < cabin_info.length ; i++)
             {
                 if (cabin_info[i].equals("Empty"))
