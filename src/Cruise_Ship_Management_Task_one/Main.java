@@ -248,6 +248,9 @@ public class Main
                 {
                     Text_to_write.append("Cabin").append(i).append("is Occupied by").append(cabin_info[i]).append("\n");
                 }
+                my_writer.write(Text_to_write.toString());
+                my_writer.close();
+                System.out.println();
 
 
 
