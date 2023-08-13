@@ -1,5 +1,8 @@
 package Cruise_Ship_Management_Task_one;
 
+import javax.imageio.IIOException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -15,6 +18,8 @@ public class Main
     private static final Main cruise_ship_class=new Main();
 
     private final String fileName = "Cabin_info.txt";
+
+
 
 
     public static void main(String[] args)
@@ -230,11 +235,14 @@ public class Main
         try
         {
             StringBuilder Text_to_write=new StringBuilder();
+            FileWriter my_writer=new FileWriter( fileName);
+
 
 
         }
-        catch
+        catch(IOException e)
         {
+            System.out.println();
 
         }
 
