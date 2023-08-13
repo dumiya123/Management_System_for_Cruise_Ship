@@ -1,6 +1,7 @@
 package Cruise_Ship_Management_Task_one;
 
 import javax.imageio.IIOException;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
@@ -272,6 +273,25 @@ public class Main
 
     public void Load_from_file()
     {
+        File inputFile=new File(fileName);
+        try
+        {
+            Scanner reader=new Scanner(inputFile);
+            while(reader.hasNext())
+            {
+                System.out.println(reader.nextLine());
+            }
+            reader.close();
+
+
+
+
+
+        }
+        catch (IOException e)
+        {
+            System.out.println();
+        }
 
     }
 
