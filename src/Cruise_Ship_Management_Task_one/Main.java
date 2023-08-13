@@ -234,7 +234,8 @@ public class Main
     {
         try
         {
-            StringBuilder Text_to_write=new StringBuilder(); //In here i created a String Builder to efficiently
+            StringBuilder Text_to_write=new StringBuilder(); //In here i created a String Builder to efficiently construct and manipulate strings
+                                                             //
             FileWriter my_writer=new FileWriter( fileName);
 
             for (int i = 0; i < cabin_info.length ; i++)
@@ -270,7 +271,7 @@ public class Main
 
     public void Load_from_file()
     {
-        
+
     }
 
 
