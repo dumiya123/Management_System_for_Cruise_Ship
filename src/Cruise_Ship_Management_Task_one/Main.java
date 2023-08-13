@@ -245,7 +245,7 @@ public class Main
                 }
                 else
                 {
-                    Text_to_write.append("Cabin").append(i).append("is Occupied")
+                    Text_to_write.append("Cabin").append(i).append("is Occupied by").append(cabin_info[i]).append("\n");
                 }
 
 
