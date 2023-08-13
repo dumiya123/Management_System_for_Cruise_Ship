@@ -242,6 +242,7 @@ public class Main
                 {
                     Text_to_write.append("Cabin").append(i).append("is").append(cabin_info[i]).append("\n");
 
+
                 }
 
 
