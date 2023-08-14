@@ -301,8 +301,13 @@ public class Main
     public void OrderAlphabetically()
     {
         String[] cabinNamesOrdered=cabin_info.clone();
-        for (int i = 0; i < ; i++)
+        for (int i = 0; i < cabin_info.length; i++)
         {
+            for (int j = 0; j <cabinNamesOrdered.length ; j++)
+            {
+
+
+            }
 
             
         }
