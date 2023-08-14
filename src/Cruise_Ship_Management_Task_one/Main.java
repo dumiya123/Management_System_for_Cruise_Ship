@@ -300,7 +300,7 @@ public class Main
 
     public void OrderAlphabetically()
     {
-        String[] cabinNamesOrdered=cabin_info.clone();
+        String[] cabinNamesOrdered=cabin_info.clone(); // Create a clone of the cabinsInfo array and initialize it as cabinNamesOrdered.
         for (int i = 0; i < cabin_info.length; i++)
         {
             for (int j = 0; j <cabinNamesOrdered.length ; j++)
