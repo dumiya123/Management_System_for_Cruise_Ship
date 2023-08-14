@@ -300,7 +300,8 @@ public class Main
 
     public void OrderAlphabetically()
     {
-        String[]
+        String[] cabinNamesOrdered=cabin_info.clone();
+
 
     }
 
