@@ -323,6 +323,7 @@ public class Main
                 if (!check)
                 {
                     System.out.println("All Cabins are Empty. Nothing to Sort.");
+
                 }
             }
 
