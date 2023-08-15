@@ -369,6 +369,10 @@ public class Main
             case "M"->show_menu();
             case "A"->Add_a_Customer_to_a_Cabin();
             case "V"->View_Cabin_Status();
+            case "E"->View_Empty_Cabins();
+            case "D"->deleteCustomer();
+            case "F"->find_Customer_From_Name();
+
 
 
         }
