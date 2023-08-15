@@ -21,8 +21,6 @@ public class Main
     private final String fileName = "Cabin_info.txt";
 
 
-
-
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
