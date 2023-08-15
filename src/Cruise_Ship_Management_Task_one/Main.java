@@ -372,6 +372,11 @@ public class Main
             case "E"->View_Empty_Cabins();
             case "D"->deleteCustomer();
             case "F"->find_Customer_From_Name();
+            case "S"->Save_to_file();
+            case "L"->Load_from_file();
+            case "O"->OrderAlphabetically();
+            case "X"->exit();
+            default -> System.out.println("Invalid Input.Please enter a valid input.");
 
 
 
