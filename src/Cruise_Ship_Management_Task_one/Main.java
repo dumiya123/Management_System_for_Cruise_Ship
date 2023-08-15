@@ -303,7 +303,9 @@ public class Main
         {
             for (int j = 0; j <cabinNamesOrdered.length-(i+1) ; j++) // Inner loop iterating through unsorted portion of cabinNamesOrdered.
             {
-                if (CompareString(cabinNamesOrdered[j],cabinNamesOrdered[j+1])==1)
+                // Compare adjacent elements using the compareNames method.
+                // If the result is 1, swap the elements to arrange in alphabetical order.
+                if (CompareNames(cabinNamesOrdered[j],cabinNamesOrdered[j+1])==1)
                 {
                     String temp=cabinNamesOrdered[j];
                     cabinNamesOrdered[j]=cabinNamesOrdered[j+1];
@@ -329,10 +331,33 @@ public class Main
         }
     }
 
-    /**
-     *CompareNames method will compare two adjacent elements in the cabinNamesOrdered array.
-     *
-     */
+    public int CompareNames(String first,String second)
+    {
+        int len;
+
+        if (first.length()>=second.length())
+        len=second.length();
+        else
+        len=first.length();
+
+        for (int i=0;i<len;i++)
+        {
+            if (first.charAt(i)>second.charAt(i))
+                return 1;
+            else if(first.charAt(i)<second.charAt(i))
+                return -1;
+        }
+        return 0;
+
+
+    }
+
+
+
+    public void exit()
+    {
+        System.exit(0);
+    }
 
 
 
