@@ -320,7 +320,11 @@ public class Main
                         check = true;
 
                     }
+                }
 
+                if (!check)
+                {
+                    System.out.println("All Cabins are Empty. Nothing to Sort.");
                 }
 
 
