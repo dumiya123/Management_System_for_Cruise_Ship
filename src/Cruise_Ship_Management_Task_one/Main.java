@@ -81,7 +81,7 @@ public class Main
             }
             else
             {
-                System.out.println("Cabin "+ i+" is"+cabin_info[i]);
+                System.out.println("Cabin "+ i+" is "+cabin_info[i]);
             }
 
         }
@@ -355,8 +355,6 @@ public class Main
                 return -1;
         }
         return 0;
-
-
     }
 
     /**
