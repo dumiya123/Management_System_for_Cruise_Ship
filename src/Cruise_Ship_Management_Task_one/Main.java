@@ -352,7 +352,9 @@ public class Main
 
     }
 
-
+    /**
+     * exit method will terminate the program using exit code 0
+     */
 
     public void exit()
     {
