@@ -330,7 +330,7 @@ public class Main
     }
 
     /**
-     *Compare
+     *CompareNames method will compare two adjacent elements in the cabinNamesOrdered array.
      */
 
 
