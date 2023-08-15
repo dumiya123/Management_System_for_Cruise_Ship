@@ -305,6 +305,14 @@ public class Main
         {
             for (int j = 0; j <cabinNamesOrdered.length-(i+1) ; j++) // Inner loop iterating through unsorted portion of cabinNamesOrdered.
             {
+                if (CompareString(cabinNamesOrdered[j],cabinNamesOrdered[j+1])==1)
+                {
+                    String temp=cabinNamesOrdered[j];
+                    cabinNamesOrdered[j]=cabinNamesOrdered[j+1];
+                    cabinNamesOrdered[j]=temp;
+
+
+                }
 
 
 
