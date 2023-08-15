@@ -31,14 +31,23 @@ public class Main
         {
             cruise_ship_class.cabin_info[i]="Empty";
         }
+        cruise_ship_class.show_menu();
+        while(true)
+        {
+            System.out.println("Enter your option: ");
+            String user_Input=String.valueOf(sc.next().charAt(0)).toUpperCase();
+            cruise_ship_class.call_Actions(user_Input);
 
+        }
+
+
+
+
+    }
     /**
      *This method will print the menu to the console.
      * So,I used formatted println for print the menu.
      * */
-
-
-    }
     public void show_menu()
     {
         System.out.println("""
