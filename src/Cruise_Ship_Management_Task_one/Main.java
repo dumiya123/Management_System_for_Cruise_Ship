@@ -1,6 +1,5 @@
 package Cruise_Ship_Management_Task_one;
 
-import javax.imageio.IIOException;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -10,11 +9,12 @@ import java.util.Scanner;
  *COPYRIGHT(C) Dumindu Induawara Garage. email-gamagedumindui@gamail.com
  * Task I  Management System for a Cruise ship in java.
  * @author Dumindu Induwara Gamage.
+ * @version 1 2023.08.15
  */
 
 public class Main
 {
-    private final String[] cabin_info=new String[12];  //create 
+    private final String[] cabin_info=new String[12];  //create
 
     private static final Main cruise_ship_class=new Main();
 
