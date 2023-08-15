@@ -116,8 +116,6 @@ public class Main
             if (cabin_number==12)        // Prompt the user to enter a cabin number.
             {
 
-
-
             }
             else if (cabin_info[cabin_number].equals("empty"))                             // The selected cabin is empty,
             {
