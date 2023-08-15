@@ -312,6 +312,11 @@ public class Main
                     cabinNamesOrdered[j]=temp;
                 }
                 boolean check=false;
+                for(String s:cabinNamesOrdered)
+                {
+
+                }
+
 
 
 
