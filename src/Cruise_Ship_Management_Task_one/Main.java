@@ -30,8 +30,6 @@ public class Main
         for (int i = 0; i <cruise_ship_class.cabin_info.length ; i++)
         {
             cruise_ship_class.cabin_info[i]="Empty";
-
-
         }
 
     /**
