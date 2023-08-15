@@ -28,7 +28,6 @@ public class Main
 
     private final String fileName = "Cabin_info.txt";      // Declare a final string variable named fileName to hold a file name.
 
-
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
