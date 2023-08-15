@@ -366,6 +366,10 @@ public class Main
         //enhanced switch case
         switch (user_Input)
         {
+            case "M"->show_menu();
+            case "A"->Add_a_Customer_to_a_Cabin();
+            case "V"->View_Cabin_Status();
+
 
         }
 
