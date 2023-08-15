@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class Main
 {
-    private final String[] cabin_info=new String[12];
+    private final String[] cabin_info=new String[12];  //create 
 
     private static final Main cruise_ship_class=new Main();
 
@@ -37,9 +37,6 @@ public class Main
             cruise_ship_class.call_Actions(user_Input);
 
         }
-
-
-
 
     }
     /**
