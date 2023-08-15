@@ -314,6 +314,12 @@ public class Main
                 boolean check=false;
                 for(String s:cabinNamesOrdered)
                 {
+                    if (!s.equals("Empty"))
+                    {
+                        System.out.println(s);
+                        check=true;
+
+                    }
 
 
                 }
