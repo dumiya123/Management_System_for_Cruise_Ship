@@ -310,9 +310,10 @@ public class Main
                     String temp=cabinNamesOrdered[j];
                     cabinNamesOrdered[j]=cabinNamesOrdered[j+1];
                     cabinNamesOrdered[j]=temp;
-
-
                 }
+                boolean check=false;
+
+
 
 
 
