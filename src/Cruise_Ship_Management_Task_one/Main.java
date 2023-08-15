@@ -361,8 +361,13 @@ public class Main
         System.exit(0);
     }
 
-    public void call_Actions(String user)
+    public void call_Actions(String user_Input)
     {
+        //enhanced switch case
+        switch (user_Input)
+        {
+
+        }
 
     }
 
