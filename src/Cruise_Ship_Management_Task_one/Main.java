@@ -317,10 +317,9 @@ public class Main
                     if (!s.equals("Empty"))
                     {
                         System.out.println(s);
-                        check=true;
+                        check = true;
 
                     }
-
 
                 }
 
