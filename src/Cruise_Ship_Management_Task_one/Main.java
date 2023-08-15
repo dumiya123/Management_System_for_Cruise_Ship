@@ -293,7 +293,7 @@ public class Main
 
     /**
      *OrderAlphabetically method will sort the Customer Names Alphabetically and Print Name
-     *In here i used
+     *In here i used Bubble sort as the
      */
 
     public void OrderAlphabetically()
