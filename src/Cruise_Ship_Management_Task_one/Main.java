@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class Main
 {
-    private final String[] cabin_info=new String[12];  //  Declare an array of Cabin objects named cabinsArray with a size of 12 We use "final" for the cabinsInfo array,
+    private final String[] cabin_info=new String[12];  //Declare an array of Cabin objects named cabinsArray with a size of 12 We use "final" for the cabinsInfo array,
                                                        // but even though it's marked as final, it doesn't prevent modification or deletion of its elements. This is because
                                                       // arrays are references to memory locations rather than containers of values. When objects or arrays are marked final,
                                                      // their reference variables cannot be reassigned to point to a different object or array. In the case of arrays, we
