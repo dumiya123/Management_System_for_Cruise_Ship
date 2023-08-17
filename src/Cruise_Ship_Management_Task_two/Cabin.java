@@ -9,7 +9,10 @@ package Cruise_Ship_Management_Task_two;
 public class Cabin
 {
     private Number_of_passengers_In_the_cabin=0;
-    private Passenger passenger_one=
+    private Passenger passenger_one;
+    private Passenger passenger_two;
+    private Passenger passenger_three;
+
 
 
 
