@@ -18,7 +18,12 @@ public class Cabin
      * Cabin constructor
      *
      */
-
+    public Cabin()
+    {
+        setPassenger1(new Passenger("N/A","N/A",0.0));                // we are creating a new Passenger object and set it as passenger1.
+        setPassenger2(new Passenger("N/A","N/A",0.0));                // we are creating a new Passenger object and set it as passenger2.
+        setPassenger3(new Passenger("N/A","N/A",0.0));                // we are creating a new Passenger object and set it as passenger3
+    }
 
 
 
