@@ -27,11 +27,19 @@ public class Cabin
 
     }
 
+    /**
+     * create getter name called
+     * @return
+     */
+
+    public int getNumberofPassengersIntheCabin()
+    {
+        return  numberOfPassengersInTheCabin;
+    }
 
 
 
 
-    
 
 
 
@@ -41,7 +49,9 @@ public class Cabin
 
 
 
-    
+
+
+
 
 
 
