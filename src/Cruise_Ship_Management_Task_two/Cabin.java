@@ -28,12 +28,14 @@ public class Cabin
     }
 
     /**
-     * create getter name called
-     * @return
+     * create getter name called getNumberofPassengersIntheCabin()
+     * getter for numberOfPassengersInTheCabin.
+     * @return number of passengers in the cabin
      */
 
     public int getNumberofPassengersIntheCabin()
     {
+
         return  numberOfPassengersInTheCabin;
     }
 
