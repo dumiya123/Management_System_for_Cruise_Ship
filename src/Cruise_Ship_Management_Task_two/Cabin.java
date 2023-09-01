@@ -36,7 +36,7 @@ public class Cabin
     public int getNumberofPassengersIntheCabin()
     {
 
-        return  numberOfPassengersInTheCabin;
+
     }
 
 
