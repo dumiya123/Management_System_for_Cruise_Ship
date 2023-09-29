@@ -14,6 +14,14 @@ public class Cabin
     private Passenger passenger_three;
 
 
+    /**
+     * Create a cabin constructor
+     *
+     */
+
+
+
+
 
 
 
