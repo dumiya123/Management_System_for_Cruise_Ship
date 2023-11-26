@@ -7,9 +7,9 @@ import java.util.Scanner;
 
 /**
  *COPYRIGHT(C) Dumindu Induawara Gamage. email-gamagedumindui@gamail.com
- * Task I  Management System for a Cruise ship in java.
- * @author Dumindu Induwara Gamage.
- * @version 1 2023.08.15
+ *Task I  Management System for a Cruise ship in java.
+ *@author Dumindu Induwara Gamage.
+ *@version 1 2023.08.15
  */
 
 public class Main
